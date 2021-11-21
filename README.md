@@ -1,24 +1,3 @@
 # projeto-vue
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![AF-VUE](https://user-images.githubusercontent.com/42502534/142750336-3810d93d-3ab1-4eb0-852d-e07c4a5f8cf1.png)
