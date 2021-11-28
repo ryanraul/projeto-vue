@@ -13,6 +13,7 @@
           v-for="item in items"
           :key="item.title"
           link
+          :to="item.path"
         >
           <v-list-item-icon>
             <v-icon>{{ item.icon }}</v-icon>
@@ -27,29 +28,18 @@
 
     <v-app-bar app dark style="background-color: #1e1e2f;">
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-toolbar-title >Vuetify — AF</v-toolbar-title>
+      <v-btn
+          text
+          v-for="item in items"
+          :key="item.title"
+          :to="item.path">
+          <v-icon left >{{ item.icon }}</v-icon>
+          {{ item.title }}
+      </v-btn>
     </v-app-bar>
 
     <v-main style="background-color: #232336;">
-      <v-container>
-        <h1 class="grey--text">Dashboard content</h1>
-        <v-card
-          elevation="0"
-          color="#27293d"
-          max-width="474"        
-        >
-          <v-card-title class="grey--text">Sparkline</v-card-title>
-          <v-sparkline
-            color="#42b883"
-            :value="dashboard.value"
-            :smooth="dashboard.radius || false"
-            :padding="dashboard.padding"
-            :line-width="dashboard.width"
-            :fill="dashboard.fill"
-            auto-draw
-          ></v-sparkline>
-        </v-card>
-      </v-container>
+      <router-view></router-view>
     </v-main>
 
     <v-footer dark padless>
@@ -70,8 +60,10 @@
     data: () => ({ 
       drawer: null,
       items: [
-          { title: 'Dashboard', icon: 'mdi-view-dashboard' },
-          { title: 'Account', icon: 'mdi-account-box' },
+          { title: 'Home', icon: 'mdi-home', path:'/' },
+          { title: 'Dashboard', icon: 'mdi-view-dashboard', path:'/dashboard' },
+          { title: 'Content', icon: 'mdi-rocket-launch', path:'/content' },
+          { title: 'About', icon: 'mdi-information', path:'/about' },
       ],
       dashboard: {
         width: 2,
