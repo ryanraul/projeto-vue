@@ -62,7 +62,7 @@
       items: [
           { title: 'Home', icon: 'mdi-home', path:'/' },
           { title: 'Dashboard', icon: 'mdi-view-dashboard', path:'/dashboard' },
-          { title: 'Content', icon: 'mdi-rocket-launch', path:'/content' },
+          { title: 'Feedback', icon: 'mdi-comment-account', path:'/feedback' },
           { title: 'About', icon: 'mdi-information', path:'/about' },
       ],
       dashboard: {

@@ -1,12 +1,11 @@
 <template>
    <v-container>
-      <h1 class="grey--text">Dashboard content</h1>
       <v-card
          elevation="0"
          color="#27293d"
          max-width="474"        
       >
-         <v-card-title class="grey--text">Sparkline</v-card-title>
+         <v-card-title class="white--text">Sparkline</v-card-title>
          <v-sparkline
             color="#42b883"
             :value="dashboard.value"
