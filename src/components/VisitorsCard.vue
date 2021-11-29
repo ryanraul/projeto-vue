@@ -7,7 +7,7 @@
    >
       <v-card-title>
          <v-icon large left>
-            mdi-twitter
+            mdi-comment-quote
          </v-icon>
          <span class="text-h6 font-weight-bold">{{content.title}}</span>
       </v-card-title>
