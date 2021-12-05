@@ -1,11 +1,15 @@
 **Home page**
-![AF-VUE1](https://user-images.githubusercontent.com/42502534/143793603-540f05ef-2eaf-428f-a1e8-703e9ab9b4aa.png)
+![AF3-1](https://user-images.githubusercontent.com/42502534/144767524-bdc5662e-dbe6-40d6-bfdb-3539417c4c9e.png)
 
 **Dashboard page**
-![AF-VUE2](https://user-images.githubusercontent.com/42502534/143793607-d40af149-17e3-4068-a40c-7922a771fef1.png)
+![AF3-2](https://user-images.githubusercontent.com/42502534/144767526-c40b2ae4-c452-44f6-bbb3-3bba70117323.png)
 
 **Feedback page**
-![AF-VUE3](https://user-images.githubusercontent.com/42502534/143794116-2275d2bf-9baf-468a-b9db-f3dc55f523bd.png)
+![AF3-3](https://user-images.githubusercontent.com/42502534/144767527-ea05aad2-ec72-4ba6-8e29-8f32ba820e7f.png)
+![AF3-4](https://user-images.githubusercontent.com/42502534/144767529-911b8db0-a7ee-4b53-a39d-2a0bb223a6e4.png)
+
+**Public apis page**
+![AF3-5](https://user-images.githubusercontent.com/42502534/144767519-165c4a76-1eb3-4153-9d38-aaa39e4bd68c.png)
 
 **About page**
-![AF-VUE4](https://user-images.githubusercontent.com/42502534/143793610-35dc0e26-5b32-480b-b3cc-9c13b599e48f.png)
+![AF3-6](https://user-images.githubusercontent.com/42502534/144767521-23195613-6d90-4ad0-bc17-1b604fc902f0.png)
