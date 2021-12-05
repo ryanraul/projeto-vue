@@ -71,15 +71,29 @@ export default new Vuex.Store({
             avatar:"https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairTheCaesarSidePart&accessoriesType=Sunglasses&hairColor=Blonde&facialHairType=MoustacheFancy&facialHairColor=BlondeGolden&clotheType=BlazerShirt&eyeType=Default&eyebrowType=AngryNatural&mouthType=Smile&skinColor=Yellow",            
          }
      ],
-     title:'CARDS'
+     title:'CARDS',
+     gradeFilter: 0,
   },
   mutations: {
+   gradeFilterUpdate (state){
+      state.gradeFilter++;
+      if(state.gradeFilter > 5)
+         state.gradeFilter = 0; 
+     }
   },
   actions: {
+   gradeFilterUpdate (context){
+      context.commit('gradeFilterUpdate');
+   }
   },
   getters: {
-   allFeedbacks(state) {
+   getFeedbacks(state) {
+      if(state.gradeFilter > 0)
+         return state.feedbacks.filter(feedback => feedback.grade == state.gradeFilter);
       return state.feedbacks;
    },
+   getGradeFilter(state){
+      return state.gradeFilter;
+   }
   }
 })
