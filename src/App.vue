@@ -63,6 +63,7 @@
           { title: 'Home', icon: 'mdi-home', path:'/' },
           { title: 'Dashboard', icon: 'mdi-view-dashboard', path:'/dashboard' },
           { title: 'Feedback', icon: 'mdi-comment-account', path:'/feedback' },
+          { title: 'Public Apis', icon: 'mdi-web', path:'/public-apis' },
           { title: 'About', icon: 'mdi-information', path:'/about' },
       ],
       dashboard: {

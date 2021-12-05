@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import Dashboard from '../views/Dashboard.vue'
 import About from '../views/About.vue'
 import Feedback from '../views/Feedback.vue'
+import PublicApis from '../views/PublicApis.vue'
 
 Vue.use(VueRouter)
 
@@ -22,6 +23,11 @@ const routes = [
     path: '/feedback',
     name: 'Feedback',
     component: Feedback
+  },
+  {
+    path: '/public-apis',
+    name: 'PublicApis',
+    component: PublicApis
   },
   {
     path: '/about',
